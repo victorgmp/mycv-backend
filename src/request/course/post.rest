@@ -1,0 +1,8 @@
+POST http://localhost:5000/api/courses
+Content-Type: application/json
+
+{
+    "title" : "Full stack Open 2021",
+    "institute" : "fullstackopen.com",
+    "year" : 2021
+}

@@ -1,0 +1,13 @@
+POST http://localhost:5000/api/experiences
+Content-Type: application/json
+
+{
+    "company" : "google",
+    "position" : "fullstack",
+    "description" : "developer in various projects",
+    "tecnologies" : [ 
+        "react", 
+        "node", 
+        "mongo"
+    ]
+}

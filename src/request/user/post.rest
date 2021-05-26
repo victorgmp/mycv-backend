@@ -1,0 +1,16 @@
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "username" : "victorgmp2",
+    "firtsName" : "Victor",
+    "lastName" : "Moreno",
+    "email" : "victorgmp2@gmail.com",
+    "phone" : "+584168172449",
+    "role" : "fullstack developer",
+    "carrerSummary" : "developer",
+    "links" : [ 
+        "www.google.com", 
+        "www.google.com"
+    ]
+}

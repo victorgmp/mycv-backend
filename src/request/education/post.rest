@@ -1,0 +1,9 @@
+POST http://localhost:5000/api/education
+Content-Type: application/json
+
+{
+    "title" : "Licenciado en Informática",
+    "institute" : "Bolivarian University of Venezuela",
+    "from" : "2004-03-01",
+    "to" : "2009-07-30"
+}
