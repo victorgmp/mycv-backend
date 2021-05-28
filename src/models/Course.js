@@ -3,7 +3,7 @@
 const { Schema, model } = require('mongoose');
 
 const courseSchema = new Schema({
-  title: {
+  name: {
     type: String,
     minlength: 4,
     required: true,

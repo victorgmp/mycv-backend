@@ -29,13 +29,14 @@ const userSchema = new Schema({
   },
   phone: {
     type: String,
+    required: true,
     trim: true,
   },
   role: {
     type: String,
     required: true,
   },
-  carrerSummary: String,
+  summary: String,
   links: [{ type: String }],
   interests: [{ type: String }],
   experience: [

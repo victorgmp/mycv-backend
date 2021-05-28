@@ -19,6 +19,8 @@ const experienceSchema = new Schema({
     type: String,
     required: true,
   }],
+  from: Date,
+  to: Date,
   user: {
     type: Schema.Types.ObjectId,
     ref: 'User',
